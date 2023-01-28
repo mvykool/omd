@@ -19,30 +19,30 @@ const MenuModal = ({setMenu, menu}: Props) => {
         className=' bg-[var(--secondary)] scrollLock right-0 z-50 h-[100vh] top-0 w-60 fixed menu'>
         
         <div className='flex justify-center pt-8'>
-        <img src="/hero.png" alt="logo" className='h-28 w-28' />
+        <img src="/assets/hero.png" alt="logo" className='h-28 w-28' />
         </div>
 
        <div className='mt-28 ml-5'>
     <ul className="mt-1 ml-8">
 			   <li className="flex space-x-2 my-4">
 				  <img src="/assets/logo.png" alt="logo" className="h-5 w-5 rotate-12"/>
-				 <a href={"/oh-my-dog/#service"} onClick={() => setMenu(false)}  className=" text-base font-semibold text-[var(--dark)]">Services</a>
+				 <a href={"/#service"} onClick={() => setMenu(false)}  className=" text-base font-semibold text-[var(--dark)]">Services</a>
 			   </li>
          <li className="flex space-x-2 my-4">
 				  <img src="/assets/logo.png" alt="logo" className="h-5 w-5 rotate-12"/>
-				 <a href={"/oh-my-dog/#about"} onClick={() => setMenu(false)}  className=" text-base font-semibold text-[var(--dark)]">About us</a>
+				 <a href={"/#about"} onClick={() => setMenu(false)}  className=" text-base font-semibold text-[var(--dark)]">About us</a>
 			   </li>
          <li className="flex space-x-2 my-4">
 				  <img src="/assets/logo.png" alt="logo" className="h-5 w-5 rotate-12"/>
-				 <a href={"/oh-my-dog/#team"} onClick={() => setMenu(false)}  className=" text-base font-semibold text-[var(--dark)]">Team</a>
+				 <a href={"/#team"} onClick={() => setMenu(false)}  className=" text-base font-semibold text-[var(--dark)]">Team</a>
 			   </li>
          <li className="flex space-x-2 my-4">
 				  <img src="/assets/logo.png" alt="logo" className="h-5 w-5 rotate-12"/>
-				 <a href={"/oh-my-dog/#plans"} onClick={() => setMenu(false)}  className=" text-base font-semibold text-[var(--dark)]">Prices</a>
+				 <a href={"/#plans"} onClick={() => setMenu(false)}  className=" text-base font-semibold text-[var(--dark)]">Prices</a>
 			   </li>
          <li className="flex space-x-2 my-4">
 				  <img src="/assets/logo.png" alt="logo" className="h-5 w-5 rotate-12"/>
-				 <a href={"/oh-my-dog/contact"} className=" text-base font-semibold text-[var(--dark)]">Contact us</a>
+				 <a href={"/contact"} className=" text-base font-semibold text-[var(--dark)]">Contact us</a>
 			   </li>
 		
 		</ul>
